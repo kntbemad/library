@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="bookDiv"></div>
+    <div id="buttons">
+        <button id="addbtn">Add Book</button>
+    </div>
+    <div id="form" class="modal">
+        <div class="form-entry">
+            <form action="" method="post" id="bookForm">
+                <label for="name">Enter Book Name: </label>
+                <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-entry">
+            <label for="author">Enter Author Name: </label>
+            <input type="text" name="author" id="author" required>
+        </div>
+        <div class="form-entry">
+            <label for="read">Read?</label>
+            <input type="checkbox" name="read" id="read">
+        </div>
+        <div class="submitbtndiv">
+            <input type="button" value="add" id="submitbtn">
+        </div>
+        </form>
+    </div>
+
+    </div>
+    <script src="book.js"></script>
+</body>
+
+</html>

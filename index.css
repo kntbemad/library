@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    gap: 30px;    
+    justify-content: center;
+    align-items: center;
+}
+
+#bookDiv {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+
+}
+
+#form {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit {
+    width: 70px;
+}
+
+.modal {
+    display: none;
+    position:absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    width: 300px;
+    height: 500px;
+    overflow: auto;
+    background-color: antiquewhite;
+}
